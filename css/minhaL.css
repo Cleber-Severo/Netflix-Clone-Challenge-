@@ -1,0 +1,38 @@
+.minha {
+    height: 200px;
+    float: bottom;
+
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+
+.minha__titulo {
+    color: #fdfdfd;
+    font-weight: 600;
+
+    margin-bottom: 1rem;
+    
+}
+
+.minhaL__item {
+    width: 100%;
+    position: relative;
+
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    column-gap: .5rem;
+    margin: 20px 0;
+}
+
+.item img {
+    max-width: 100%;
+}
+
+.item--destaque {
+    transition: all .4s ease;
+}
+.item--destaque:hover {
+    transform: scale(1.2);
+    margin:0 40px ;
+}
+

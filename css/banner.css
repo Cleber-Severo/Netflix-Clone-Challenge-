@@ -1,0 +1,83 @@
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.banner__destaque {
+    display: flex;
+    flex-direction: column;
+
+    width: 35%;
+    height: 20%;
+
+    padding-left:6rem ;
+    margin-bottom: 5rem;
+}
+
+.banner__destaque img {
+    margin-bottom: 1rem;
+}
+
+.banner__destaque p {
+    color: #fdfdfd;
+
+    font-weight: 600;
+    font-size: 1.2rem;
+
+    margin-bottom: 2rem;
+}
+
+.destaque__botao {
+    display: flex;
+}
+
+.destaque__botao a {
+    text-decoration: none;
+}
+
+.botao {
+    padding: 1rem 2rem;
+    border-radius: 2px;
+
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.destaque__botao--assistir {
+    background-color: #fdfdfd;
+    color: #333333;
+
+    margin-right: 1.5rem;
+
+    transition: all .3s ease;
+    
+    display: flex;
+    align-items: center;
+}
+ .destaque__botao--assistir i {
+    font-size: 1rem;
+    margin-right: .4rem;
+ }
+
+.destaque__botao--assistir:hover {
+    background-color: #cc0000;
+    color: #fdfdfd;
+}
+
+.destaque__botao--informacoes {
+    background-color: rgba(255, 255, 255, .3);
+    color: #fdfdfd;
+
+    transition: all .3s ease;
+}
+
+.destaques__botao--informacoes i {
+    font-size: 1rem;
+    margin-right: .4rem;
+}
+
+.destaque__botao--informacoes:hover {
+    background-color:  #ff4d4d;
+    color: #fdfdfd;
+}

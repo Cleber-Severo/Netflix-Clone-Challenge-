@@ -1,0 +1,87 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100vw;
+
+  padding: 2rem 3rem;
+}
+
+.container__logo {
+  width: 6rem;
+  margin-right: 1rem;
+}
+
+.container,
+.menu__lista {
+  display: flex;
+}
+
+.container {
+  align-items: center;
+}
+
+.container i {
+  color: white;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.container img {
+  width: 36px;
+  height: 36px;
+  margin-right: 0.5rem;
+}
+
+.menu__item {
+  list-style: none;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: #acacac;
+  font-size: 1.2rem;
+  font-weight: 500;
+
+  margin-right: 1rem;
+  padding: 0.5rem;
+
+  position: relative;
+}
+
+.menu__link:hover {
+  color: #fdfdfd;
+}
+
+.menu__link::before,
+.menu__link::after {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+
+  width: 100%;
+  height: 2px;
+
+  background-color: #fdfdfd;
+
+  transform: scaleX(0);
+  transition: all 0.4s ease;
+}
+
+.menu__link::before {
+  bottom: 1px;
+  transform-origin: right;
+}
+
+.menu__link::after {
+  top: 1px;
+  transform-origin: left;
+}
+
+.menu__link:hover::after,
+.menu__link:hover::before {
+  transform: scaleX(1);
+}
