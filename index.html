@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/banner.css">
     <link rel="stylesheet" href="./css/minhaL.css">
     <link rel="stylesheet" href="./css/rodape.css">
+    <link rel="stylesheet" href="./css/carrosel.css">
 </head>
 <body>
     <div class="app-background">
@@ -22,14 +23,14 @@
             <header class="cabecalho">
 
                 <div class="container">
-                    <img src="./img/logo_1.svg" alt="" class="container__logo">
+                    <img src="./img/logo_1.svg" alt="logo" class="container__logo">
                     <nav class="menu">
                         <ul class="menu__lista">
-                            <li class="menu__item"><a href="" class="menu__link">Início</a></li>
-                            <li class="menu__item"><a href="" class="menu__link">Séries</a></li>
-                            <li class="menu__item"><a href="" class="menu__link">Filmes</a></li>
-                            <li class="menu__item"><a href="" class="menu__link">Bombando</a></li>
-                            <li class="menu__item"><a href="" class="menu__link">Minha lista</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Início</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Séries</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Filmes</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Bombando</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Minha lista</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -58,9 +59,10 @@
                         </div>
                     </div>
                 </section>
+                
 
                 <section class="minha">
-                    <h3 class="minha__titulo">Meus favoritos</h3>
+                    <h3 class="minha__titulo">Minha Lista</h3>
                     <div class="minhaL__item">
                         <div class="item item--destaque"><img src="./img/poster_01.svg" alt="Bojack horseman" class="lista__img"></div>
                         <div class="item item--destaque"><img src="./img/poster_02.svg" alt="Ozark" class="lista__img"></div>
@@ -80,6 +82,58 @@
                         <div class="item item--destaque"><img src="./img/poster_10.svg" alt="Amor & Gelato" class="lista__img"></div>                    
                     </div>
                 </section>
+
+                <section class="minha">
+                    <h3 class="minha__titulo">Series estrangeiras</h3>
+                    <div class="minhaL__item">
+                        <div class="item item--destaque"><img src="./img/poster_01.png" alt="Queen Loretta" class="lista__img"></div>
+                        <div class="item item--destaque"><img src="./img/poster_02.png" alt="As sete vidas de Lea" class="lista__img"></div>
+                        <div class="item item--destaque"><img src="./img/poster_03.png" alt="Young Royals" class="lista__img"></div>
+                        <div class="item item--destaque"><img src="./img/poster_08.svg" alt="Peaky Blinders" class="lista__img"></div>
+                        <div class="item item--destaque"><img src="./img/poster_05.png" alt="Dark" class="lista__img"></div>  
+                    </div>
+                </section>
+
+                <section class="carrosel">
+                    <h3 class="minha__titulo">Séries exêntricas de humor ácido</h3>
+                    <div class="carrosel__container">
+                        <section id="section1" class="minhaL__item">
+                            <a href="#section3" class="arrow_btn"></a>
+
+                        <div class="item item--destaque"><img src="./img/poster_01.png" alt="Queen Loretta" class="lista__img"></div>
+                        <div class="item item--destaque"><img src="./img/poster_02.png" alt="As sete vidas de Lea" class="lista__img"></div>
+                        <div class="item item--destaque"><img src="./img/poster_03.png" alt="Young Royals" class="lista__img"></div>
+                        <div class="item item--destaque"><img src="./img/poster_08.svg" alt="Peaky Blinders" class="lista__img"></div>
+                        <div class="item item--destaque"><img src="./img/poster_05.png" alt="Dark" class="lista__img"></div>  
+
+                            <a href="#section2" class="arrow_btn"><i class="fas fa-angle-right"></i></a>
+                        </section>
+                        <section id="section2" class="minhaL__item">
+                             <a href="#section1" class="arrow_btn"><i class="fas fa-angle-left"></i></a>
+
+                        <div class="item item--destaque"><img src="./img/poster_07.png" alt="OZARK" class="lista__img"></div>
+                        <div class="item item--destaque"><img src="./img/poster_01.png" alt="Bojak Horseman" class="lista__img"></div>
+                        <div class="item item--destaque"><img src="./img/poster_01.png" alt="Bojak Horseman" class="lista__img"></div>
+                        <div class="item item--destaque"><img src="./img/poster_09.png" alt="Tedy bundy tapes" class="lista__img"></div>
+                        <div class="item item--destaque"><img src="./img/poster_10.png" alt="Gabriel Fluffy" class="lista__img"></div>  
+
+
+                             <a href="#section3" class="arrow_btn"><i class="fas fa-angle-right"></i></a>
+                        </section>
+                        <section id="section3" class="minhaL__item">
+                            <a href="#section2" class="arrow_btn"><i class="fas fa-angle-left"></i></a>
+
+                        <div class="item item--destaque"><img src="./img/poster_11.png" alt="PolaR" class="lista__img"></div>
+                        <div class="item item--destaque"><img src="./img/poster_12.png" alt="Fyre" class="lista__img"></div>
+                        <div class="item item--destaque"><img src="./img/poster_13.png" alt="Friends from college" class="lista__img"></div>
+                        <div class="item item--destaque"><img src="./img/poster_14.png" alt="Riverdale" class="lista__img"></div>
+                        <div class="item item--destaque"><img src="./img/poster_15.png" alt="Velvet Buzzsau" class="lista__img"></div>  
+
+                            <a href="#section1" class="arrow_btn"></a>
+                        </section>
+                    </div>
+                </section>
+
             </main>
             <footer class="rodape">
 
@@ -125,7 +179,7 @@
                 <span class="rodape__direitos-autorais"> &copy 1997-2022 Netflix, Inc.</span>
 
             </footer>
-        
+        </div>
     </div>
 
     <script src="https://kit.fontawesome.com/050214c9c1.js" crossorigin="anonymous"></script>
